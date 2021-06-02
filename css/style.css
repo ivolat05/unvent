@@ -324,6 +324,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+    border-radius: 0 0 7% 7%;
 }
 
 
@@ -539,6 +540,7 @@ body {
 
 button.mfp-close {
     font-size: 62px;
+    color: rgba(254, 88, 81, 1);
     right: 1%;
     top: 1%;
 }
@@ -546,7 +548,7 @@ button.mfp-close {
 
 
 .mfp-zoom-out-cur .mfp-img {
-    height: 28.646vw;
+    height: 550px;
 }
 
 .mfp-zoom-out-cur .mfp-img:hover {
@@ -710,14 +712,16 @@ button.mfp-close {
     .header__box-btn {
         top: 250px;
     }
+
+    .main {
+        padding-top: 228px;
+    }
 }
 
 @media(max-width: 485px) {
 
 
-    .main {
-        padding-top: 228px;
-    }
+
 
     .main__wrapper-inner>h1,
     .main__wrapper-inner>h1>span {
